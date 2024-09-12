@@ -1,4 +1,4 @@
-FROM rust:1.76-bullseye AS builder
+FROM rust:1.76-bookworm AS builder
 RUN cargo install wasm-pack
 
 RUN mkdir /rust
